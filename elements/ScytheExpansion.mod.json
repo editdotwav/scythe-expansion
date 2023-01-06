@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Scythe Expansion",
+    "icon": {
+      "value": "CUSTOM:NetheriteScythe"
+    },
+    "showSearch": false
+  }
+}

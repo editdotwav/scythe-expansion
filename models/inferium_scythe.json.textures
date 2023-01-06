@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "inferium_scythe"
+      },
+      "name": "default"
+    }
+  }
+}

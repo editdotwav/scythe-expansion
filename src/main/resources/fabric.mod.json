@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "scytheexpansion",
+  "version": "1.1.1",
+  "name": "Scythe Expansion",
+  "description": "A simple mod that adds scythes to Minecraft!",
+  "authors": [
+    "edlt_"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/dCTQceYeXN",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/scytheexpansion/icon.png",
+  "accessWidener": "scytheexpansion.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.scytheexpansion.ScytheexpansionMod"
+    ],
+    "client": [
+      "net.mcreator.scytheexpansion.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "scytheexpansion.mixins.json"
+  ]
+}

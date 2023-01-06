@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "scytheexpansion:diamond_scythe"
+    },
+    "title": {
+      "translate": "advancements.get_diamond_scythe.title"
+    },
+    "description": {
+      "translate": "advancements.get_diamond_scythe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_diamond_scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scytheexpansion:diamond_scythe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "scytheexpansion:get_iron_scythe"
+}

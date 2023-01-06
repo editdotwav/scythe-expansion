@@ -1,0 +1,280 @@
+{
+  "mod_elements": [
+    {
+      "name": "IronScytheRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_scythe_recipe"
+    },
+    {
+      "name": "WoodScytheRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_scythe_recipe"
+    },
+    {
+      "name": "StoneScytheRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_scythe_recipe"
+    },
+    {
+      "name": "GoldScytheRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_scythe_recipe"
+    },
+    {
+      "name": "DiamondScytheRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_scythe_recipe"
+    },
+    {
+      "name": "NetheriteScytheRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_scythe_recipe"
+    },
+    {
+      "name": "WoodenScythe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_scythe"
+    },
+    {
+      "name": "StoneScythe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_scythe"
+    },
+    {
+      "name": "GoldenScythe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_scythe"
+    },
+    {
+      "name": "IronScythe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_scythe"
+    },
+    {
+      "name": "DiamondScythe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_scythe"
+    },
+    {
+      "name": "NetheriteScythe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_scythe"
+    },
+    {
+      "name": "GobberScythe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gobber_scythe"
+    },
+    {
+      "name": "GobberScytheRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gobber_scythe_recipe"
+    },
+    {
+      "name": "NetherScythe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_scythe"
+    },
+    {
+      "name": "NetherScytheRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_scythe_recipe"
+    },
+    {
+      "name": "EndScytheUnbreakble",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_scythe_unbreakble",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndScythe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_scythe"
+    },
+    {
+      "name": "EndScytheRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "end_scythe_recipe"
+    },
+    {
+      "name": "ScytheExpansion",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe_expansion"
+    },
+    {
+      "name": "GetWoodenScythe",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_wooden_scythe"
+    },
+    {
+      "name": "GetStoneScythe",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stone_scythe"
+    },
+    {
+      "name": "GetIronScythe",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_iron_scythe"
+    },
+    {
+      "name": "GetGoldenScythe",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_golden_scythe"
+    },
+    {
+      "name": "GetDiamondScythe",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_diamond_scythe"
+    },
+    {
+      "name": "GetNetheriteScythe",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_netherite_scythe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.get_golden_scythe.title": "Waste of Gold",
+      "item.scytheexpansion.nether_scythe": "Nether Scythe",
+      "advancements.get_wooden_scythe.descr": "Craft a wooden scythe, a more expensive, but better alternative for the sword.",
+      "item.privateserv.iron_scythe": "Iron Scythe",
+      "advancements.get_golden_scythe.descr": "Why? Even the stone Scythe is better than this.",
+      "item.privateserv.wood_scythe": "Wooden Scythe",
+      "advancements.get_diamond_scythe.title": "Scythe of Diamonds",
+      "advancements.get_stone_scythe.title": "That\u0027s an improvement",
+      "item.scytheexpansion.iron_scythe": "Iron Scythe",
+      "item.scytheexpansion.diamond_scythe": "Diamond Scythe",
+      "advancements.get_diamond_scythe.descr": "Craft a diamond Scythe, that will be replace by the netherite one soon.",
+      "item.scytheexpansion.wooden_scythe": "Wooden Scythe",
+      "advancements.get_stone_scythe.descr": "Make a stone Scythe, probably after getting the wooden one.",
+      "item.privateserv.diamond_scythe": "Diamond Scythe",
+      "item.scytheexpansion.netherite_scythe": "Netherite Scythe",
+      "item.privateserv.stone_scythe": "Stone Scythe",
+      "advancements.get_netherite_scythe.descr": "Upgrade the diamonds Scythe with a netherite ingot and make the most powerfull melee weapon (probably)",
+      "item.scytheexpansion.gobber_scythe": "Gobber Scythe",
+      "item.scytheexpansion.golden_scythe": "Golden Scythe",
+      "itemGroup.scytheexpansion.scythe_expansion": "Scythe Expansion",
+      "advancements.get_netherite_scythe.title": "Forged From the Depths of Hell",
+      "item.scytheexpansion.stone_scythe": "Stone Scythe",
+      "item.privateserv.gold_scythe": "Golden Scythe",
+      "item.privateserv.netherite_scythe": "Netherite Scythe",
+      "advancements.get_iron_scythe.descr": "\"It\u0027s Scythin\u0027 time\" said Edit and then scythed all over the place",
+      "item.scytheexpansion.end_scythe": "End Scythe",
+      "advancements.get_wooden_scythe.title": "Not Quite For Farming",
+      "advancements.get_iron_scythe.title": "Iron Upgrade",
+      "itemGroup.tabscythe_expansion": "Scythe Expansion"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "scytheexpansion",
+    "modName": "Scythe Expansion",
+    "version": "1.1.1",
+    "description": "A simple mod that adds scythes to Minecraft!",
+    "author": "edlt_",
+    "websiteURL": "https://discord.gg/dCTQceYeXN",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "curseforgese",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Inspired by doctor4t\u0027s Clowns Scythe Mod and XxSorxXMC\u0027s Scythed Mod",
+    "modElementsPackage": "net.mcreator.scytheexpansion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
