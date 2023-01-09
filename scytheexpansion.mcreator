@@ -109,7 +109,7 @@
       "type": "recipe",
       "sortid": 25,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "gobber_scythe_recipe"
     },
     {
@@ -125,7 +125,7 @@
       "type": "recipe",
       "sortid": 27,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "nether_scythe_recipe"
     },
     {
@@ -157,7 +157,7 @@
       "type": "recipe",
       "sortid": 29,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "end_scythe_recipe"
     },
     {
@@ -264,14 +264,14 @@
     "author": "edlt_",
     "websiteURL": "https://discord.gg/dCTQceYeXN",
     "license": "All Rights Reserved",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "modPicture": "curseforgese",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "fabric-1.19.2",
+    "currentGenerator": "forge-1.19.2",
     "credits": "Inspired by doctor4t\u0027s Clowns Scythe Mod and XxSorxXMC\u0027s Scythed Mod",
     "modElementsPackage": "net.mcreator.scytheexpansion",
     "lockBaseModFiles": false

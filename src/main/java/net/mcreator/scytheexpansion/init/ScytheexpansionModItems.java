@@ -1,12 +1,14 @@
 
 /*
- *	MCreator note: This file will be REGENERATED on each build.
+ *    MCreator note: This file will be REGENERATED on each build.
  */
 package net.mcreator.scytheexpansion.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
 import net.minecraft.world.item.Item;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.Registry;
 
 import net.mcreator.scytheexpansion.item.WoodenScytheItem;
 import net.mcreator.scytheexpansion.item.StoneScytheItem;
@@ -20,26 +22,14 @@ import net.mcreator.scytheexpansion.item.DiamondScytheItem;
 import net.mcreator.scytheexpansion.ScytheexpansionMod;
 
 public class ScytheexpansionModItems {
-	public static Item WOODEN_SCYTHE;
-	public static Item STONE_SCYTHE;
-	public static Item GOLDEN_SCYTHE;
-	public static Item IRON_SCYTHE;
-	public static Item DIAMOND_SCYTHE;
-	public static Item NETHERITE_SCYTHE;
-	public static Item GOBBER_SCYTHE;
-	public static Item NETHER_SCYTHE;
-	public static Item END_SCYTHE;
-
-	public static void load() {
-		WOODEN_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "wooden_scythe"), new WoodenScytheItem());
-		STONE_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "stone_scythe"), new StoneScytheItem());
-		GOLDEN_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "golden_scythe"), new GoldenScytheItem());
-		IRON_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "iron_scythe"), new IronScytheItem());
-		DIAMOND_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "diamond_scythe"), new DiamondScytheItem());
-		NETHERITE_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "netherite_scythe"),
-				new NetheriteScytheItem());
-		GOBBER_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "gobber_scythe"), new GobberScytheItem());
-		NETHER_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "nether_scythe"), new NetherScytheItem());
-		END_SCYTHE = Registry.register(Registry.ITEM, new ResourceLocation(ScytheexpansionMod.MODID, "end_scythe"), new EndScytheItem());
-	}
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ScytheexpansionMod.MODID);
+	public static final RegistryObject<Item> WOODEN_SCYTHE = REGISTRY.register("wooden_scythe", () -> new WoodenScytheItem());
+	public static final RegistryObject<Item> STONE_SCYTHE = REGISTRY.register("stone_scythe", () -> new StoneScytheItem());
+	public static final RegistryObject<Item> GOLDEN_SCYTHE = REGISTRY.register("golden_scythe", () -> new GoldenScytheItem());
+	public static final RegistryObject<Item> IRON_SCYTHE = REGISTRY.register("iron_scythe", () -> new IronScytheItem());
+	public static final RegistryObject<Item> DIAMOND_SCYTHE = REGISTRY.register("diamond_scythe", () -> new DiamondScytheItem());
+	public static final RegistryObject<Item> NETHERITE_SCYTHE = REGISTRY.register("netherite_scythe", () -> new NetheriteScytheItem());
+	public static final RegistryObject<Item> GOBBER_SCYTHE = REGISTRY.register("gobber_scythe", () -> new GobberScytheItem());
+	public static final RegistryObject<Item> NETHER_SCYTHE = REGISTRY.register("nether_scythe", () -> new NetherScytheItem());
+	public static final RegistryObject<Item> END_SCYTHE = REGISTRY.register("end_scythe", () -> new EndScytheItem());
 }

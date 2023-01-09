@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 license="All Rights Reserved"
 
 [[mods]]
@@ -17,10 +17,16 @@ A simple mod that adds scythes to Minecraft!
 [[dependencies.scytheexpansion]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.scytheexpansion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.1.7]"
+    ordering="NONE"
+    side="BOTH"
 
 
 

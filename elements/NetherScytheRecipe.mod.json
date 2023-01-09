@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.GOLD_NUGGET"
+        "value": "Items.NETHERBRICK"
       },
       {
-        "value": "Items.GOLD_NUGGET"
+        "value": "Items.NETHERBRICK"
       },
       {
-        "value": "Items.GOLD_NUGGET"
+        "value": "Items.NETHERBRICK"
       },
       {
-        "value": "Items.GOLD_NUGGET"
+        "value": "Items.NETHERBRICK"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NetherScythe"
+      "value": "CUSTOM:EndScythe"
     },
-    "name": "nether_scythe_recipe",
+    "name": "end_scythe_recipe",
     "namespace": "mod"
   }
 }

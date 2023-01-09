@@ -45,6 +45,6 @@ public class EndScytheItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		EndScytheUnbreakbleProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("itemstack", itemstack).build());
+		EndScytheUnbreakbleProcedure.execute(itemstack);
 	}
 }
