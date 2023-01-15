@@ -16,15 +16,15 @@ public class NetherScytheItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 11f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 9f;
+				return 7f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {
@@ -34,6 +34,6 @@ public class NetherScytheItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.7f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
+		}, 3, -2.9f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
 	}
 }

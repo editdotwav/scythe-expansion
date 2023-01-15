@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Blocks.COBBLESTONE"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GoldenScythe"
+      "value": "CUSTOM:StoneScythe"
     },
-    "name": "gold_scythe_recipe",
+    "name": "stone_scythe_recipe",
     "namespace": "mod"
   }
 }

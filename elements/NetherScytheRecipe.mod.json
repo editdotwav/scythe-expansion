@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERBRICK"
+        "value": "Blocks.COBBLED_DEEPSLATE"
       },
       {
-        "value": "Items.NETHERBRICK"
+        "value": "Blocks.COBBLED_DEEPSLATE"
       },
       {
-        "value": "Items.NETHERBRICK"
+        "value": "Blocks.COBBLED_DEEPSLATE"
       },
       {
-        "value": "Items.NETHERBRICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
+        "value": "Blocks.COBBLED_DEEPSLATE"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.STONE#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#5"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EndScythe"
+      "value": "CUSTOM:NetherScythe"
     },
-    "name": "end_scythe_recipe",
+    "name": "nether_scythe_recipe",
     "namespace": "mod"
   }
 }

@@ -16,11 +16,11 @@ public class GobberScytheItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 10f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 6f;
 			}
 
 			public int getLevel() {

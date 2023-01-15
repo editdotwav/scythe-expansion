@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "achievement",
   "definition": {
     "achievementName": "Not Quite For Farming",
-    "achievementDescription": "Craft a wooden scythe, a more expensive, but better alternative for the sword.",
+    "achievementDescription": "Craft a Wooden Scythe, a more expensive, but better alternative for the sword.",
     "achievementIcon": {
       "value": "CUSTOM:WoodenScythe"
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "tool",
   "definition": {
     "renderType": 1,
@@ -11,19 +11,15 @@
       "value": "CUSTOM:ScytheExpansion"
     },
     "toolType": "Sword",
-    "harvestLevel": 0,
-    "efficiency": 2.0,
-    "attackSpeed": 0.9,
-    "enchantability": 15,
-    "damageVsEntity": 6.0,
-    "usageCount": 59,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "Blocks.PLANKS#0"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

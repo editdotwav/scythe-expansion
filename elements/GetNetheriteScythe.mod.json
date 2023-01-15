@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "achievement",
   "definition": {
     "achievementName": "Forged From the Depths of Hell",
-    "achievementDescription": "Upgrade the diamonds Scythe with a netherite ingot and make the most powerfull melee weapon (probably)",
+    "achievementDescription": "Upgrade the Diamond Scythe with a netherite ingot and forge the most powerfull melee weapon",
     "achievementIcon": {
       "value": "CUSTOM:NetheriteScythe"
     },

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "particle": "inferium_scythe"
+        "2": "golden_scythe"
       },
       "name": "default"
     }

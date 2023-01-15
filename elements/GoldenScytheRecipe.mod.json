@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:GoldenScythe"
     },
-    "name": "gold_scythe_recipe",
+    "name": "golden_scythe_recipe",
     "namespace": "mod"
   }
 }

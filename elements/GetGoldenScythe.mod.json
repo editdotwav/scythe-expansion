@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "achievement",
   "definition": {
     "achievementName": "Waste of Gold",
-    "achievementDescription": "Why? Even the stone Scythe is better than this.",
+    "achievementDescription": "Why? Even the Stone Scythe is better than this.",
     "achievementIcon": {
       "value": "CUSTOM:GoldenScythe"
     },

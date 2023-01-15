@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "stone_scythe"
+        "2": "stone_scythe"
       },
       "name": "default"
     }

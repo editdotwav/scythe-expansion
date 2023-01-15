@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "se/diamond_scythe"
+		"2": "segobb/endgobber2_scythe"
 	},
 	"elements": [
 		{
@@ -98,13 +98,13 @@
 		{
 			"name": "iron_scythe_7",
 			"from": [9, 6, 7],
-			"to": [10, 10, 8],
+			"to": [10, 9, 8],
 			"faces": {
-				"north": {"uv": [9, 9, 10, 5], "rotation": 180, "texture": "#2"},
-				"east": {"uv": [9, 9, 10, 5], "rotation": 180, "texture": "#2"},
-				"south": {"uv": [9, 9, 10, 5], "rotation": 180, "texture": "#2"},
-				"west": {"uv": [9, 9, 10, 5], "rotation": 180, "texture": "#2"},
-				"up": {"uv": [9, 9, 10, 5], "rotation": 180, "texture": "#2"},
+				"north": {"uv": [9, 9, 10, 6], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [9, 9, 10, 6], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [9, 9, 10, 6], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [9, 9, 10, 6], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [9, 9, 10, 6], "rotation": 180, "texture": "#2"},
 				"down": {"uv": [9, 9, 10, 8], "rotation": 180, "texture": "#2"}
 			}
 		},

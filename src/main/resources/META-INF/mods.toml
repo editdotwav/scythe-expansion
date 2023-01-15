@@ -4,9 +4,9 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="scytheexpansion"
-version="1.1.1"
+version="2.0.0"
 displayName="Scythe Expansion"
-credits="Inspired by doctor4t's Clowns Scythe Mod and XxSorxXMC's Scythed Mod"
+credits="Inspired by doctor4t's Clowns Scythe Mod"
 displayURL="https://discord.gg/dCTQceYeXN"
 logoFile="logo.png"
 authors="edlt_"
@@ -24,7 +24,7 @@ A simple mod that adds scythes to Minecraft!
 [[dependencies.scytheexpansion]]
     modId="forge"
     mandatory=true
-    versionRange="[43.1.7]"
+    versionRange="[43.2.0]"
     ordering="NONE"
     side="BOTH"
 

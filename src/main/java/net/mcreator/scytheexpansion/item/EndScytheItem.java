@@ -1,7 +1,6 @@
 
 package net.mcreator.scytheexpansion.item;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
@@ -17,7 +16,7 @@ public class EndScytheItem extends SwordItem {
 	public EndScytheItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4000;
+				return 3000;
 			}
 
 			public float getSpeed() {
@@ -25,11 +24,11 @@ public class EndScytheItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 13f;
+				return 8f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 7;
 			}
 
 			public int getEnchantmentValue() {
@@ -37,9 +36,9 @@ public class EndScytheItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Blocks.DIORITE_SLAB));
+				return Ingredient.EMPTY;
 			}
-		}, 3, -2.6f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
+		}, 3, -3f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
 	}
 
 	@Override

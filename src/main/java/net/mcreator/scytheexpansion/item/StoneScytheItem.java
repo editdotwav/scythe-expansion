@@ -22,7 +22,7 @@ public class StoneScytheItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 3f;
 			}
 
 			public int getLevel() {

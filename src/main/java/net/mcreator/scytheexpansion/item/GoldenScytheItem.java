@@ -18,11 +18,11 @@ public class GoldenScytheItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 12f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 2f;
 			}
 
 			public int getLevel() {
@@ -36,6 +36,6 @@ public class GoldenScytheItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.GOLD_INGOT));
 			}
-		}, 3, -2.9f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
+		}, 3, -2.8f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
 	}
 }

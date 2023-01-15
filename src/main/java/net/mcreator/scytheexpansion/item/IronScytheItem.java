@@ -18,11 +18,11 @@ public class IronScytheItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -30,12 +30,12 @@ public class IronScytheItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -3f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
+		}, 3, -2.9f, new Item.Properties().tab(ScytheexpansionModTabs.TAB_SCYTHE_EXPANSION));
 	}
 }

@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "achievement",
   "definition": {
     "achievementName": "Scythe of Diamonds",
-    "achievementDescription": "Craft a diamond Scythe, that will be replace by the netherite one soon.",
+    "achievementDescription": "Craft a Diamond Scythe, that will be replaced by the Netherite Scythe soon.",
     "achievementIcon": {
       "value": "CUSTOM:DiamondScythe"
     },

@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "achievement",
   "definition": {
     "achievementName": "That's an improvement",
-    "achievementDescription": "Make a stone Scythe, probably after getting the wooden one.",
+    "achievementDescription": "Make a Stone Scythe, probably after getting the wooden one.",
     "achievementIcon": {
       "value": "CUSTOM:StoneScythe"
     },

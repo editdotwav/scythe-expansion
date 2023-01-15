@@ -7,22 +7,22 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:nether_brick"
+      "item": "gobber2:gobber2_ingot_end"
     },
     "1": {
-      "item": "minecraft:nether_brick"
+      "item": "gobber2:gobber2_ingot_end"
     },
     "2": {
-      "item": "minecraft:nether_brick"
+      "item": "gobber2:gobber2_ingot_end"
     },
     "3": {
-      "item": "minecraft:nether_brick"
+      "item": "gobber2:gobber2_ingot_end"
     },
     "5": {
-      "item": "minecraft:stick"
+      "item": "gobber2:gobber2_rod_end"
     },
     "7": {
-      "item": "minecraft:stick"
+      "item": "gobber2:gobber2_rod_end"
     }
   },
   "result": {

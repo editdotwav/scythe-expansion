@@ -7,22 +7,22 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:gold_nugget"
+      "item": "gobber2:gobber2_ingot_nether"
     },
     "1": {
-      "item": "minecraft:gold_nugget"
+      "item": "gobber2:gobber2_ingot_nether"
     },
     "2": {
-      "item": "minecraft:gold_nugget"
+      "item": "gobber2:gobber2_ingot_nether"
     },
     "3": {
-      "item": "minecraft:gold_nugget"
+      "item": "gobber2:gobber2_ingot_nether"
     },
     "5": {
-      "item": "minecraft:stick"
+      "item": "gobber2:gobber2_rod_nether"
     },
     "7": {
-      "item": "minecraft:stick"
+      "item": "gobber2:gobber2_rod_nether"
     }
   },
   "result": {

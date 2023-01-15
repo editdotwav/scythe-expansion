@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,28 +10,28 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERBRICK"
+        "value": "Blocks.COBBLED_DEEPSLATE_STAIRS"
       },
       {
-        "value": "Items.NETHERBRICK"
+        "value": "Blocks.COBBLED_DEEPSLATE_STAIRS"
       },
       {
-        "value": "Items.NETHERBRICK"
+        "value": "Blocks.COBBLED_DEEPSLATE_STAIRS"
       },
       {
-        "value": "Items.NETHERBRICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
+        "value": "Blocks.COBBLED_DEEPSLATE_STAIRS"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.ANDESITE_STAIRS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.ANDESITE_STAIRS"
       },
       {
         "value": ""
