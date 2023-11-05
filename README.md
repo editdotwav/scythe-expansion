@@ -49,23 +49,4 @@ Q: Github?
 
 A: Here
 
- 
-# Donations
 
- 
-You can donate to me by PayPal! With just 3$ you can get:
-
- 
-- Early builds
-- Chat with other donators
-- Early models
-- Progress updates
-
- 
-
-- More comming soon!
- 
- <span font-size:4px>PayPal: eugenehordei134429@gmail.com</span>
- 
- 
-After donation, DM me on Discord so you get your role on my server.
